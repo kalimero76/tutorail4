@@ -7,7 +7,7 @@ const app = express();
 app.use( cors() );
 app.use( bodyParser.json() );
 
-const port = process.env.PORT || 5002
+const port = process.env.PORT || 3000
 
 
 // addData()
@@ -19,12 +19,12 @@ app.use( express.json() )
 
 //router 
 app.get( "/", ( req, res ) => {
-    res.send( 'hw' );
+  res.send( 'hw' );
 } )
 
 
 app.listen( port, () => {
-    console.log( 'server started' );
+  console.log( 'server started' );
 } )
 
 
