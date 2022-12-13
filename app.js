@@ -19,7 +19,7 @@ app.use( express.json() )
 
 //router 
 app.get( "/", ( req, res ) => {
-  res.send( 'hw' );
+  res.send( '<p>okkkk yesssss</p>' );
 } )
 
 
